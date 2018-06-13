@@ -51,6 +51,8 @@
 			Имя: <input type="text" name="firstname" /> <br/>
 			Фамилия: <input type="text" name="lastname" /> <br/>
 			<h2>Доставка</h2>
+			<p><input type="radio" name="runing" value="экспресс" />Экспресс доставка</p>
+			<p><input type="radio" name="runing" value="обычная">Обычная доставка</p>
 			<p>Доставить в</p>
 			<select name="day">
 				<option value="1">сегодня</option>
@@ -126,6 +128,11 @@
 				<option value="2/3">Паста болоньезе</option>
 				<option value="2/4">Пирог</option>
 			</select> <br/>
+			<h2>Оплата</h2>
+			<p><input type="radio" name="cardornot" value="card"> По карте</p>
+			Номер карты: <input type="text" name="cardnum"> <br/>
+			<p><input type="radio" name="cardornot" value="not"> Наличными</p>
+			<br/>
 			Коментарии: <br/>
 			<textarea name="coments" rows="10" cols="48"></textarea> <br/>
 			<input type="submit" value="заказать" /> <br/>
