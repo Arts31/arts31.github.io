@@ -3,6 +3,7 @@
 <head>
 	<title>Заказ на дом</title>
 	<link rel="shortcut icon" type="text/css" href="order.png">
+	<script type="text/javascript" src="order.js"></script>
 	<style type="text/css">
 		body {
 			font-family: sans-serif;
@@ -46,7 +47,7 @@
 		<p><a href="index.html" title="На главнаю"><img src="logo.gif"></a></p>
 		<div id="order">
 			<h1>Оформить заказ</h1>
-			<p>телефон поддержки +7 (916) 731-37-98. Мы вам позвоним после заказа. Когда мы вам позвоним мы скажем ва цену и можете заказать экспресс доставку.</p>
+			<p>телефон поддержки +7 (916) 731-37-98. Мы вам позвоним после заказа.</p>
 			<h2>Данные получателя</h2>
 			Имя: <input type="text" name="firstname" /> <br/>
 			Фамилия: <input type="text" name="lastname" /> <br/>
@@ -73,85 +74,24 @@
 			Номер телефона: <input type="text" name="telephone"> <br/>
 			Эл. почта: <input type="text" name="email">
 			<h2>Корзина</h2>
-			Содержимое <br/>
-			<select name="contents1">
-				<option value="none">не выбрано</option>
-				<option value="1/1">Овощи с запахом тимьяна</option>
-				<option value="4/1">Карпачо из говядины</option>
-				<option value="1/2">Салат из авокадо и артишоков</option>
-				<option value="3/2">Салат цезарь</option>
-				<option value="2/3">Паста болоньезе</option>
-				<option value="2/4">Пирог</option>
-				<option value="pizza">Пицца</option>
-			</select> <br/>
-			<select name="contents2">
-				<option value="none">не выбрано</option>
-				<option value="1/1">Овощи с запахом тимьяна</option>
-				<option value="4/1">Карпачо из говядины</option>
-				<option value="1/2">Салат из авокадо и артишоков</option>
-				<option value="3/2">Салат цезарь</option>
-				<option value="2/3">Паста болоньезе</option>
-				<option value="2/4">Пирог</option>
-				<option value="pizza">Пицца</option>
-			</select> <br/>
-			<select name="contents3">
-				<option value="none">не выбрано</option>
-				<option value="1/1">Овощи с запахом тимьяна</option>
-				<option value="4/1">Карпачо из говядины</option>
-				<option value="1/2">Салат из авокадо и артишоков</option>
-				<option value="3/2">Салат цезарь</option>
-				<option value="2/3">Паста болоньезе</option>
-				<option value="2/4">Пирог</option>
-				<option value="pizza">Пицца</option>
-			</select> <br/>
-			<select name="contents4">
-				<option value="none">не выбрано</option>
-				<option value="1/1">Овощи с запахом тимьяна</option>
-				<option value="4/1">Карпачо из говядины</option>
-				<option value="1/2">Салат из авокадо и артишоков</option>
-				<option value="3/2">Салат цезарь</option>
-				<option value="2/3">Паста болоньезе</option>
-				<option value="2/4">Пирог</option>
-				<option value="pizza">Пицца</option>
-			</select> <br/>
-			<select name="contents5">
-				<option value="none">не выбрано</option>
-				<option value="1/1">Овощи с запахом тимьяна</option>
-				<option value="4/1">Карпачо из говядины</option>
-				<option value="1/2">Салат из авокадо и артишоков</option>
-				<option value="3/2">Салат цезарь</option>
-				<option value="2/3">Паста болоньезе</option>
-				<option value="2/4">Пирог</option>
-				<option value="pizza">Пицца</option>
-			</select> <br/>
-			<select name="contents6">
-				<option value="none">не выбрано</option>
-				<option value="1/1">Овощи с запахом тимьяна</option>
-				<option value="4/1">Карпачо из говядины</option>
-				<option value="1/2">Салат из авокадо и артишоков</option>
-				<option value="3/2">Салат цезарь</option>
-				<option value="2/3">Паста болоньезе</option>
-				<option value="2/4">Пирог</option>
-				<option value="pizza">Пицца</option>
-			</select> <br/>
-			<select name="contents7">
-				<option value="none">не выбрано</option>
-				<option value="1/1">Овощи с запахом тимьяна</option>
-				<option value="4/1">Карпачо из говядины</option>
-				<option value="1/2">Салат из авокадо и артишоков</option>
-				<option value="3/2">Салат цезарь</option>
-				<option value="2/3">Паста болоньезе</option>
-				<option value="2/4">Пирог</option>
-				<option value="pizza">Пицца</option>
-			</select> <br/>
+			<p>Содержимое</p> <br/>
+			<p>Кол-во</p>
+			Овощи с запахом тимьяна<input type="text" name="1/1" id="1/1" onchange="updateorder();"><br>
+			Карпачо из говядины<input type="text" name="4/1" id="4/1" onchange="updateorder();"><br>
+			Салат из авокадо и артишоков<input type="text" name="1/2" id="1/2" onchange="updateorder();"><br>
+			Салат цезарь<input type="text" name="3/2" id="3/2" onchange="updateorder();"><br>
+			Паста болоньезе<input type="text" name="2/3" value="нет в наличии" id="2/3" onchange="updateorder();"><br>
+			Пирог<input type="text" name="1/4" id="1/4" onchange="updateorder();"><br>
+			Пицца<input type="text" name="pizza" id="pizza" onchange="updateorder();"><br>
 			<h2>Оплата</h2>
+			Сумма<input type="text" name="total" id="total" onchange="updateorder();">
 			<p><input type="radio" name="cardornot" value="card"> По карте</p>
 			Номер карты: <input type="text" name="cardnum"> <br/>
 			<p><input type="radio" name="cardornot" value="not"> Наличными</p>
 			<br/>
 			Коментарии: <br/>
 			<textarea name="coments" rows="10" cols="48"></textarea> <br/>
-			<input type="submit" value="заказать" /> <br/>
+			<input type="submit" value="заказать" onclick="placeorder(this.form);" /> <br/>
 			<br>
 		</div>
 		<div id="firm">
