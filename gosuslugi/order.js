@@ -1,7 +1,7 @@
 function UpdateOrder() {
-	const PRICE = 4;
+	const PRICE = 0.0001;
 	var number =
 	document.getElementById('numbers').value;
 	var total = number * PRICE;
-	document.getElementById('total').value = total + " руб.";
+	document.getElementById('total').value = total.toFixed(2);
 }
