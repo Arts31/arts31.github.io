@@ -1,5 +1,5 @@
 function UpdateOrder() {
-	const PRICE = 0.0001;
+	const PRICE = 0.01;
 	var number =
 	document.getElementById('numbers').value;
 	var total = number * PRICE;
