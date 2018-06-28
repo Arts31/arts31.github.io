@@ -20,6 +20,7 @@ a.goes {
 	font-size: 35px;
 	font-style: sans-serif;
 	float: right;
+	margin-right: 10px;
 }
 a.goes:link, a.goes:visited {
 	color: #0A06A3;
