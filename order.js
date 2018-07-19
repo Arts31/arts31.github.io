@@ -40,4 +40,5 @@ function updateorder() {
 	pizza + num_four_1 * four_1;
 	document.getElementById('total').value = "Р" + total;
 
+
 }
