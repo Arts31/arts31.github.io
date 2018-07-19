@@ -46,13 +46,45 @@
 			text-align: center;
 		}
 		.menugroup {
-			width: 800px;
 			margin: 0 30%;
 			text-align: left;
 		}
 		.prices {
 			width: 100px;
 			float: right;
+			display: inline-block;
+		}
+		#prices2 {
+			display: none;
+		}
+		@media screen and (max-width: 980px) {
+			p {
+				font-size: 50px;
+			}
+			#menu {
+				background-color: #06FF00;
+				margin-top: 10px;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+			#firm {
+				background-color: red;
+				margin-top: 10px;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+			.prices {
+				display: none;
+			}
+			#prices2 {
+				display: inline-block;
+			}
+			#prices2 p {
+				font-size: 1000px;
+			}
+			li {
+				font-size: 50px;
+			}
 		}
 	</style>
 </head>
@@ -68,9 +100,9 @@
 		<div class="menugroup">
 			<div class="prices">15 руб.<br>5 руб.<br>50 руб.</div>
 			<ul>
-				<li>Чай</li>
-				<li>Кофе</li>
-				<li>Молочный коктейль</li> 
+				<li>Чай_<span id="prices2">15 руб</span></li>
+				<li>Кофе_<span id="prices2">5 руб</span></li>
+				<li>Молочный коктейль_<span id="prices2">50 руб</span></li> 
 			</ul>
 		</div>
 	</div>

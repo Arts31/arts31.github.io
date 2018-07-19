@@ -7,10 +7,11 @@
 		body {
 			font-family: sans-serif;
 			background-color: white;
+			text-align: center;
 		}
 		p{
 			color: black;
-			font-size: 25px;
+			font-size: 70px;
 		}
 		h1 {
 			font-size: 50px; 
@@ -38,6 +39,7 @@
 			margin-left: 30px;
 			text-align: center;
 			background-color: aqua;
+			position: relative;
 		}
 		#firm {
 			border: solid 3px black;
@@ -54,16 +56,49 @@
 			margin-left: 30px;
 		}
 		.menugroup {
-			width: 800px;
 			margin: 0 30%;
 			text-align: left;
 		}
 		.prices{
 			width: 100px;
 			float: right;
+			display: inline-block;
 		}
 		.red {
 			color: red;
+		}
+		#prices2 {
+			display: none;
+		}
+
+		@media screen and (max-width: 980px) {
+			p {
+				font-size: 50px;
+			}
+			#menu {
+				background-color: #06FF00;
+				margin-top: 10px;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+			#firm {
+				background-color: red;
+				margin-top: 10px;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+			.prices {
+				display: none;
+			}
+			#prices2 {
+				display: inline-block;
+			}
+			#prices2 p {
+				font-size: 1000px;
+			}
+			li {
+				font-size: 50px;
+			}
 		}
 	</style>
 </head>
@@ -77,11 +112,11 @@
 		<div class="prices">790 руб.<br>1200 руб.<br>800 руб.<br>2500 руб.<br>20 руб.</div>
 		<div class="menugroup">
 		<ul>
-			<li>Овощи с запахом тимьяна</li>
-			<li>Баклажаны, запечённые с помидорами</li>
-			<li>Обжаренные артишоки с чесноком и петрушкой</li>
-			<li>Карпачо из говядины</li>
-			<li>Фаршированные оливки (3 штуки)</li>
+			<li>Овощи с запахом тимьяна_<span id="prices2">790 руб</span></li>
+			<li>Баклажаны, запечённые с помидорами_<span id="prices2">1200 руб</span></li>
+			<li>Обжаренные артишоки с чесноком и петрушкой_<span id="prices2">800 руб</span></li>
+			<li>Карпачо из говядины_<span id="prices2">2500 руб</span></li>
+			<li>Фаршированные оливки (3 штуки)_<span id="prices2">20 руб</span></li>
 		</ul>
 		
 		</div>
@@ -89,27 +124,27 @@
 		<div class="prices">1600 руб.<br>5600 руб.<br>2600 руб.</div>
 		<div class="menugroup">
 		<ul>
-			<li>Салат из авокадо и артишоков</li>
-			<li>Салат из краба, помидоров и красного лука</li>
-			<li>Салат &laquo;Цезарь&raquo;</li>
+			<li>Салат из авокадо и артишоков_<span id="prices2">1600 руб</span></li>
+			<li>Салат из краба, помидоров и красного лука_<span id="prices2">5600 руб</span></li>
+			<li>Салат &laquo;Цезарь&raquo;_<span id="prices2">2600 руб</span></li>
 		</ul>
 		</div>
 		<h2>Вторые блюда</h2>
 		<div class="prices">800 руб.<br>800 руб.<br>1000 руб.<br>750 руб.</div>
 		<div class="menugroup">
 		<ul>
-			<li>Мидии</li>
-			<li>Паста болоньезе</li>
-			<li>Хот-дог</li>
-			<li>Макароны по-флотски <span class="red">(нет в наличии)</span></li>
+			<li>Мидии_<span id="prices2">800 руб</span></li>
+			<li>Паста болоньезе_<span id="prices2">800 руб</span></li>
+			<li>Хот-дог_<span id="prices2">1000 руб</span></li>
+			<li>Макароны по-флотски_<span class="red">(нет в наличии)</span><span id="prices2">750 руб</span></li>
 		</ul>
 		</div>
 		<h2>Десерты</h2>
 		<div class="prices">8900 руб.<br>6000 руб.</div>
 		<div class="menugroup">
 		<ul>
-			<li>Пирог</li>
-			<li>Тирамису</li>
+			<li>Пирог_<span id="prices2">8900 руб</span></li>
+			<li>Тирамису_<span id="prices2">6000 руб</span></li>
 		</ul>
 		</div>
 		<br>
