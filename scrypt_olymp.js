@@ -25,7 +25,7 @@ function End() {
 		total += 1;
 	}
 	if (an4 == "3") {
-		total += 2;
+		total += 1;
 	}
 	if (an5 == "6") {
 		total += 6;
