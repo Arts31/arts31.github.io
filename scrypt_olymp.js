@@ -24,7 +24,7 @@ function End() {
 	if (an3 == "15") {
 		total += 1;
 	}
-	if (an4 == "3") {
+	if (an4 == "17") {
 		total += 1;
 	}
 	if (an5 == "6") {
