@@ -10,7 +10,15 @@
     }
     span.img {
         visibility: hidden;
-        float: right;
+        float: left;
+        margin-right: -10000px;
+    }
+    #goer {
+        text-align: left;
+        background-color: #FFFF00;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-top: solid blue 2px;
     }
     h1 {
         text-align: center;

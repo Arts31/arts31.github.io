@@ -82,7 +82,8 @@ span.gray {
     color: gray;
 }
 span.img {
-    float: right;
+ float: right;
+
 }
 #red {
     color: firebrick;
@@ -90,7 +91,6 @@ span.img {
 #men {
 	border-style: groove;
 	padding: 5px;
-	clear: right;
 	margin-top: 150px;
 	background-color: #F5F5DC;
 }
