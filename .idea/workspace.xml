@@ -15,29 +15,31 @@
     <session id="-1308558413">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="7" />
+          <entry key="css" value="9" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="16" />
+          <entry key="html" value="25" />
+          <entry key="js" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
-          <entry key="HTML" value="16" />
+          <entry key="CSS" value="9" />
+          <entry key="HTML" value="25" />
+          <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -45,13 +47,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="68" />
-          <entry key="html" value="306" />
+          <entry key="html" value="318" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="68" />
-          <entry key="HTML" value="306" />
+          <entry key="HTML" value="318" />
         </counts>
       </usages-collector>
     </session>
@@ -59,15 +61,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OxStore/html/index.html">
+        <entry file="file://$PROJECT_DIR$/site/html/men.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="598">
+              <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/html/ras.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/html/dej.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/html/uchi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/html/download.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/html/olymps.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/html/ankform.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -77,10 +124,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OxStore/CSS/style_index.css">
+        <entry file="file://$PROJECT_DIR$/site/js/non.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="368">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/css/css4v.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="162" column="19" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -106,19 +167,19 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/site/html/acses.html" />
         <option value="$PROJECT_DIR$/site/html/dej.html" />
-        <option value="$PROJECT_DIR$/site/html/index.html" />
         <option value="$PROJECT_DIR$/site/html/olymps.html" />
         <option value="$PROJECT_DIR$/site/html/ras.html" />
         <option value="$PROJECT_DIR$/site/html/uchi.html" />
         <option value="$PROJECT_DIR$/site/css/css4v.css" />
         <option value="$PROJECT_DIR$/site/html/men.html" />
         <option value="$PROJECT_DIR$/site/css/mobile.css" />
-        <option value="$PROJECT_DIR$/site/html/download.html" />
         <option value="$PROJECT_DIR$/OxStore/style_index.css" />
         <option value="$PROJECT_DIR$/OxStore/index.html" />
         <option value="$PROJECT_DIR$/OxStore/CSS/style_index.css" />
         <option value="$PROJECT_DIR$/OxStore/html/index.html" />
         <option value="$PROJECT_DIR$/site/html/ankform.html" />
+        <option value="$PROJECT_DIR$/site/html/index.html" />
+        <option value="$PROJECT_DIR$/site/html/download.html" />
       </list>
     </option>
   </component>
@@ -155,7 +216,19 @@
               <item name="arts31.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="arts31.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arts31.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arts31.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arts31.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arts31.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,12 +282,14 @@
       <workItem from="1541870634286" duration="595000" />
       <workItem from="1541919160384" duration="2000" />
       <workItem from="1542623044769" duration="6000" />
-      <workItem from="1542810440074" duration="40000" />
+      <workItem from="1542810440074" duration="96000" />
+      <workItem from="1542810726702" duration="2216000" />
+      <workItem from="1542970007411" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5838000" />
+    <option name="totallyTimeSpent" value="8386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -273,76 +348,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/html/dej.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/css/mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/html/ras.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/html/uchi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/html/download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/html/men.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/html/olymps.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/css/css4v.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="1" lean-forward="true" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/html/acses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OxStore/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -357,10 +362,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/html/acses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/html/men.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/html/ras.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/html/dej.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/html/uchi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/html/olymps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/html/ankform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/js/non.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/css4v.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="162" column="19" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/html/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
         </state>
       </provider>
     </entry>
