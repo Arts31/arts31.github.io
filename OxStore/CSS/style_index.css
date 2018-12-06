@@ -26,3 +26,29 @@ span.white {
 #hi {
     background-color: black;
 }
+#goer {
+    background-color: #333333;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+a.goer {
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+a.goer:link, a.goer:visited {
+    color: white;
+}
+
+a.goer:hover {
+    color: purple;
+}
+img.img {
+    text-align: center;
+}
+p.text {
+    text-align: right;
+}
